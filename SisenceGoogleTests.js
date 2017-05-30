@@ -45,6 +45,6 @@ describe('Protractor Test', function () {
 
     it('should hide clear selection container for MARKETING CHANNEL BREAKDOWN chart when  clear button clicked', function () {
         sisPage.clearMarketingChannelBreakdown();
-        expect(sisPage.getStyleOfElement(sisPage.dpage.clearSelectionContainer)).toEqual('display: none;');
+        expect(sisPage.getStyleOfElement(sisPage.dPage.clearSelectionContainer)).toEqual('display: none;');
     });
 });

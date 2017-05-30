@@ -9,6 +9,6 @@ exports.config = {
         browser.driver.manage().window().maximize();
         browser.driver.manage().timeouts().implicitlyWait(5000);
         browser.driver.manage().timeouts().pageLoadTimeout(40000);
-        browser.waitForAngularEnabled(false);
+        browser.waitForAngularEnabled(false);        
     }
 };
