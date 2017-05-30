@@ -8,7 +8,7 @@ exports.config = {
     onPrepare: function () {
         browser.driver.manage().window().maximize();
         browser.driver.manage().timeouts().implicitlyWait(5000);
-        browser.driver.manage().timeouts().pageLoadTimeout(40000);
+        browser.driver.manage().timeouts().pageLoadTimeout(10000);
         browser.waitForAngularEnabled(false);        
     }
 };
