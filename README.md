@@ -1,2 +1,0 @@
-# SisenseTest
-Test For Sisense
