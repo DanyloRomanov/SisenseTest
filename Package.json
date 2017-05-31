@@ -1,0 +1,8 @@
+{
+  "name": "MyScript",
+  "dependencies": {
+    "backbone": "^1.1.2",
+    "jquery": "^2.1.1",
+    "nicescroll": "git+https://github.com/inuyaksa/jquery.nicescroll.git"
+  }
+}
